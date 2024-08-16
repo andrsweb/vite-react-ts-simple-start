@@ -1,0 +1,66 @@
+* {
+	outline: none;
+	box-sizing: border-box
+}
+
+body, html {
+	height: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	margin: 0
+}
+
+body {
+	position: relative;
+	min-width: 300px;
+	display: flex;
+	height: auto;
+	font-family: $ff;
+	font-size: $fs-md;
+	line-height: $lh;
+	color: $black;
+	background-color: $white;	
+}
+
+img {
+	max-width: 100%;
+	height: auto
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	background: none;
+	cursor: pointer;
+	transition: background-color ease $tr,
+				color ease $tr;
+}
+
+
+#root {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+	margin-top: 140px;
+
+	@media(min-width: $lg) {
+		margin-top: 0;
+	}
+
+	.footer {
+		margin-top: auto
+	}
+}

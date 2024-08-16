@@ -1,0 +1,11 @@
+.hero {
+	padding: 50px 0;
+	background-color: $black;
+
+	&-ui {
+		display: flex;
+		align-items: center;
+		margin-top: 50px;
+		gap: 40px;
+	}
+}
