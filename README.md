@@ -8,12 +8,12 @@ This project is a modern frontend application built with Vite, React, and TypeSc
 
 This React application utilizes:
 
-   -** Vite for fast builds and development.**
-   -** React 18 for the user interface.**
-   -** TypeScript for type safety.**
-   -** React Query for data fetching and state management.**
-   -** Sass for styling with SCSS.**
-   -** Zustand for state management.**
+   * Vite for fast builds and development.
+   * React 18 for the user interface.
+   * TypeScript for type safety.
+   * React Query for data fetching and state management.
+   * Sass for styling with SCSS.
+   * Zustand for state management.
 
 The project includes configurations for linting with ESLint, type checking with TypeScript, and optimized asset management.
 
@@ -59,9 +59,9 @@ The project includes configurations for linting with ESLint, type checking with 
     npm run preview
     ```
 ## Configuration
- ** Development Server: Runs on port 3000 and automatically opens in your default browser. **
- ** SCSS Configuration: Global SCSS variables are imported via vars.scss. **
- ** Build Configuration: Includes source maps for easier debugging and custom asset file naming to organize images, fonts, and icons. **
+ * Development Server: Runs on port 3000 and automatically opens in your default browser. 
+ * SCSS Configuration: Global SCSS variables are imported via vars.scss. 
+ * Build Configuration: Includes source maps for easier debugging and custom asset file naming to organize images, fonts, and icons. 
    
 
 Feel free to customize this README with additional information relevant to your project.
